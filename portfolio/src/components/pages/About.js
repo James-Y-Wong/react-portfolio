@@ -3,7 +3,7 @@ import "../../styles/style.css";
 
 export default function About() {
   return (
-    <body>
+    <div class="body">
       <div class="container about-section">
         <div class="row">
           <div class="col-3 headshot-picture">
@@ -42,6 +42,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </body>
+    </div>
   );
 }

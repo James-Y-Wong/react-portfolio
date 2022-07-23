@@ -25,7 +25,7 @@ header {
     padding: 1.5rem;
 }
 
-body, button {
+.body, button {
     background-color: var(--smoke);
 }
 
