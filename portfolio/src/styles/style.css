@@ -1,0 +1,113 @@
+/* color pallate from schemecolor.com */
+:root {
+    --dark: #0D0D0D;
+    --lava: #CC1C1D;
+    --smoke: #2C2C2C;
+    --light: #ffffff;
+}
+
+/* font-family from google fonts */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* each sections styling */
+#bio, #project-cards, #contact-info {
+    border-left: solid;
+    border-color: var(--lava);
+    padding: 45px 0px 0px 45px;
+}
+
+
+header {
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 1.5rem;
+}
+
+body, button {
+    background-color: var(--smoke);
+}
+
+p, li {
+    color: var(--light);
+}
+
+h2, h5 {
+    color: var(--lava);
+}
+
+a {
+    color: var(--light);
+    /* takes away underline for links */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* when hovering over links text turns from light to lava */
+a:hover, .nav-link:hover {
+    color: var(--lava);
+}
+
+/* changed bootstrap default font color to light */
+.nav-link, .card-text {
+    color: var(--light);
+}
+
+.card-body {
+    background-color: var(--dark);
+}
+
+.card {
+    border-color: var(--smoke);
+}
+
+.contact-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* create spacing between sections*/
+.work-section, .about-section {
+    margin-top: 50px;
+}
+
+
+footer {
+    background-color: var(--dark);
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 1rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* sized and aligned headshot */
+.headshot {
+    width: 62%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+/* sized and aligned tagline */
+.tag-line {
+    color: var(--lava);
+    font-size: 1.5rem;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.contact-li {
+    line-height: 3rem;
+    font-size: 1.25rem;
+}
