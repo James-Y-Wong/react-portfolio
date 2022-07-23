@@ -7,7 +7,12 @@ import "./styles/style.css";
 const App = () => {
   return (
     <div>
-      <PortfolioContainer />
+      <div className="body">
+        <Header />
+        <PortfolioContainer />
+      </div>
+
+      <Footer />
     </div>
   );
 };

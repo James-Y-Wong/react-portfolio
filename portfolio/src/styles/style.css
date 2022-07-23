@@ -30,6 +30,10 @@
     padding-bottom: 50px;
 }
 
+.navigation {
+    background-color: var(--dark);
+}
+
 button {
     background-color: var(--smoke);
 }
@@ -113,9 +117,9 @@ h1 {
 /* sized and aligned tagline */
 .tag-line {
     color: var(--lava);
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     padding: 45px 0;
-    text-align: center;
+    text-align: left;
 }
 
 .contact-li {

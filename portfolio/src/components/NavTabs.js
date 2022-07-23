@@ -4,8 +4,8 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className='col'>
-    <ul className="nav">
+    <div className='col navigation'>
+    <ul className="nav justify-content-end">
       <li className="nav-item">
         <a
           href="#about"
