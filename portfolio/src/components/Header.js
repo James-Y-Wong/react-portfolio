@@ -13,9 +13,6 @@ export default function Header() {
           <p className="tag-line">Full-Stack Web Developer</p>
         </div>
       </div>
-      {/* <div className="col">
-        <PortfolioContainer />
-      </div> */}
     </div>
   );
 }

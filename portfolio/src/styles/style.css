@@ -28,6 +28,7 @@
 .body {
     background-color: var(--smoke);
     padding-bottom: 50px;
+    min-height: calc(100vh - 80px);
 }
 
 .navigation {
@@ -54,13 +55,20 @@ a {
 }
 
 /* when hovering over links text turns from light to lava */
-a:hover, .nav-link:hover {
+a:hover, a.nav-link:hover {
     color: var(--lava);
 }
 
 /* changed bootstrap default font color to light */
-.nav-link, .card-text {
+a.nav-link, .card-text {
     color: var(--light);
+}
+a.nav-item {
+    color: var(--light)
+}
+
+a.nav-link:active {
+    color: var(--lava)
 }
 
 .card-body {
@@ -88,6 +96,7 @@ a:hover, .nav-link:hover {
     margin-bottom: 0%;
     margin-top: 0%;
     padding: 1.5rem;
+    height: 80px;
 }
 
 .logo {
