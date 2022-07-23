@@ -2,16 +2,22 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+<div className="container contact-section">
+      <div className="row">
+        <div className="col-3">
+          <h2 id="contact-me">R&eacute;sum&eacute;</h2>
+        </div>
+        <div className="col" id="contact-info">
+          <ul>
+            <li>
+               (404) 213-3994
+            </li>
+            <li>
+              jamesyeuwong@gmail.com
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

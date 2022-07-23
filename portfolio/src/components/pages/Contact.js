@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="container contact-section">
       <div className="row">
         <div className="col-3">
-          <h2 id="contact-me">Contact Me</h2>
+          <h2 id="contact-me">Contact</h2>
         </div>
         <div className="col" id="contact-info">
           <Form />

@@ -8,7 +8,7 @@ export default function Portfolio() {
       ="row">
         <div className
         ="col-3">
-          <h2 id="work">Work</h2>
+          <h2 id="work">Portfolio</h2>
         </div>
         <div className
         ="col" id="project-cards">

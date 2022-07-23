@@ -13,7 +13,7 @@ export default function Footer() {
         >
           LinkedIn
         </a>
-        <i class="fa-brands fa-github contact-li"></i>
+        <i className="fa-brands fa-github contact-li"></i>
         <a
           href="https://github.com/James-Y-Wong"
           target="_blank"

@@ -5,6 +5,7 @@ import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Footer from "./Footer";
+import Header from "./Header";
 import "../styles/style.css";
 import "../images/Headshotbnw.jpg";
 
@@ -31,6 +32,7 @@ export default function PortfolioContainer() {
     <div>
       <div className="body">
         {/* We are passing the currentPage from state and the function to update it */}
+        <Header />
         <NavTabs
           currentPage={currentPage}
           handlePageChange={handlePageChange}
