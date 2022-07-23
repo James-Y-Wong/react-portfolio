@@ -19,7 +19,7 @@
 }
 
 
-header {
+.header {
     background-color: var(--dark);
     color: var(--light);
     padding: 1.5rem;
@@ -83,7 +83,13 @@ a:hover, .nav-link:hover {
     text-align: center;
     margin-bottom: 0%;
     margin-top: 0%;
-    padding: 1rem;
+    padding: 1.5rem;
+}
+
+.logo {
+    text-align: center;
+    font-size: 6rem;
+    color: var(--light);
 }
 
 h1, h2 {
