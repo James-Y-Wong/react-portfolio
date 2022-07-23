@@ -1,20 +1,18 @@
 import React from "react";
-import "../../styles/style.css";
 
 export default function About() {
   return (
-    <div class="body">
-      <div class="container about-section">
-        <div class="row">
-          <div class="col-3 headshot-picture">
+      <div className="container about-section">
+        <div className="row">
+          <div className="col-3 headshot-picture">
             <h2 id="about-me">About Me</h2>
             <img
-              class="headshot"
-              src="./assets/images/Headshotbnw.jpg"
+              className="headshot"
+              src={`../../images/Headshotbnw.jpg`}
               alt="headshot"
             />
           </div>
-          <div class="col" id="bio">
+          <div className="col" id="bio">
             <p>
               Hi there! My name is James Wong. I am a Full Stack Web Developer
               with a background in Supply Chain. I am currently enrolled in Full
@@ -42,6 +40,5 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
