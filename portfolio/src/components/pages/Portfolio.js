@@ -1,24 +1,187 @@
-import React from 'react';
+import React from "react";
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div class="container work-section">
+      <div class="row">
+        <div class="col-3">
+          <h2 id="work">Work</h2>
+        </div>
+        <div class="col" id="project-cards">
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="./assets/images/soundriver_search_result_screenshot.png"
+                class="card-img-top"
+                alt="screenshot of soundriver"
+              />
+              <div class="card-body">
+                <h5 class="card-title">SoundRiver</h5>
+                <p class="card-text">
+                  A web application that allows users to consolidate multiple
+                  streaming platforms into one playlist
+                </p>
+                <button title="URL">
+                  <a
+                    href="https://james-y-wong.github.io/SoundRiver/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </button>
+                <button title="GitHub Repo">
+                  <a
+                    href="https://github.com/James-Y-Wong/SoundRiver"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/weather-dashboard-screenshot.png"
+                  class="card-img-top"
+                  alt="screenshot of weather dashboard"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Weather Dashboard</h5>
+                  <p class="card-text">
+                    A web application that allows user to see current and 5-day
+                    weather conditions for selected city
+                  </p>
+                  <button title="URL">
+                    <a
+                      href="https://james-y-wong.github.io/hw-6-weather-dashboard/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </button>
+                  <button title="GitHub Repo">
+                    <a
+                      href="https://github.com/James-Y-Wong/hw-6-weather-dashboard"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/gadgetgetter-dashboard-screenshot.png"
+                  class="card-img-top"
+                  alt="screenshot of workday scheduler"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">GadgetGetter</h5>
+                  <p class="card-text">
+                    A full-stack system for managing devices for a school. Can
+                    view allower users to rent and return devices
+                  </p>
+                  <button title="URL">
+                    <a
+                      href="https://gadget-getter.herokuapp.com/login"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </button>
+                  <button title="GitHub Repo">
+                    <a
+                      href="https://github.com/James-Y-Wong/GadgetGetter"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/code-quiz-quiz-page-screenshot.png"
+                  class="card-img-top"
+                  alt="screenshot of code quiz"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Code Quiz</h5>
+                  <p class="card-text">
+                    A web application to test users on basic coding knowledge
+                    using multiple choice questions
+                  </p>
+                  <button title="URL">
+                    <a
+                      href="https://james-y-wong.github.io/hw-4-code-quiz/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </button>
+                  <button title="GitHub Repo">
+                    <a
+                      href="https://github.com/James-Y-Wong/hw-4-code-quiz"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/work-day-scheduler-home-screenshot.png"
+                  class="card-img-top"
+                  alt="screenshot of password generator"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Workday Scheduler</h5>
+                  <p class="card-text">
+                    A web application to help user plan out tasks during the
+                    work day
+                  </p>
+                  <button title="URL">
+                    <a
+                      href="https://james-y-wong.github.io/hw-5-work-day-scheduler/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </button>
+                  <button title="GitHub Repo">
+                    <a
+                      href="https://github.com/James-Y-Wong/hw-5-work-day-scheduler"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
