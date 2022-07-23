@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.597da263.css",
-    "main.js": "/react-portfolio/static/js/main.a8bdb4a8.js",
+    "main.css": "/react-portfolio/static/css/main.b4cce886.css",
+    "main.js": "/react-portfolio/static/js/main.e9b5f0ef.js",
     "static/media/Headshotbnw.jpg": "/react-portfolio/static/media/Headshotbnw.ecf501e2f23b6b8863a4.jpg",
+    "static/media/James Wong Resume 06.2022.pdf": "/react-portfolio/static/media/James Wong Resume 06.2022.389540918d6c5df23f9b.pdf",
     "static/media/github-svgrepo-com.svg": "/react-portfolio/static/media/github-svgrepo-com.7894bcfab1ab247b6ad7.svg",
     "static/media/linkedin-svgrepo-com.svg": "/react-portfolio/static/media/linkedin-svgrepo-com.5060e5e65d1b5cad6a35.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.597da263.css.map": "/react-portfolio/static/css/main.597da263.css.map",
-    "main.a8bdb4a8.js.map": "/react-portfolio/static/js/main.a8bdb4a8.js.map"
+    "main.b4cce886.css.map": "/react-portfolio/static/css/main.b4cce886.css.map",
+    "main.e9b5f0ef.js.map": "/react-portfolio/static/js/main.e9b5f0ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.597da263.css",
-    "static/js/main.a8bdb4a8.js"
+    "static/css/main.b4cce886.css",
+    "static/js/main.e9b5f0ef.js"
   ]
 }
