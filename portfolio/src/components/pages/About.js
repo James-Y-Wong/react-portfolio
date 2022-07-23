@@ -1,4 +1,5 @@
 import React from "react";
+import headshot from "../../images/Headshotbnw.jpg"
 
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
             <h2 id="about-me">About Me</h2>
             <img
               className="headshot"
-              src={`../../images/Headshotbnw.jpg`}
+              src={headshot}
               alt="headshot"
             />
           </div>
