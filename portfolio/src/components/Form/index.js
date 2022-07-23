@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './style.css';
 
 // Here we import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 function Form() {
   // Create state variables for the fields in the form
@@ -34,17 +34,17 @@ function Form() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+      setErrorMessage('name or email is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    if (!checkPassword(password)) {
-      setErrorMessage(
-        `Choose a more secure password for the account: ${userName}`
-      );
-      return;
-    }
+    // if (!checkPassword(password)) {
+    //   setErrorMessage(
+    //     `Choose a more secure password for the account: ${userName}`
+    //   );
+    //   return;
+    // }
     alert(`Hello ${userName}`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
@@ -57,6 +57,13 @@ function Form() {
     <div>
       <p>Hello {userName}</p>
       <form className="form">
+      <input
+          value={userName}
+          name="userName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="name"
+        />
         <input
           value={email}
           name="email"
@@ -64,20 +71,21 @@ function Form() {
           type="email"
           placeholder="email"
         />
-        <input
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="username"
-        />
-        <input
+        <textarea
+            name="thoughtText"
+            placeholder="please leave a message..."
+            // value={formState.thoughtText}
+            className="form-input w-100 text"
+            // onChange={handleChange}
+          />
+
+        {/* <input
           value={password}
           name="password"
           onChange={handleInputChange}
           type="password"
           placeholder="Password"
-        />
+        /> */}
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (

@@ -1,154 +1,184 @@
 /* color pallate from schemecolor.com */
 :root {
-    --dark: #0D0D0D;
-    --lava: #CC1C1D;
-    --smoke: #2C2C2C;
-    --light: #ffffff;
+  --dark: #0d0d0d;
+  --lava: #cc1c1d;
+  --smoke: #2c2c2c;
+  --light: #ffffff;
 }
 
 /* font-family from google fonts */
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* each sections styling */
-#bio, #project-cards, #contact-info {
-    border-left: solid;
-    border-color: var(--lava);
-    padding: 45px 0px 0px 45px;
+#bio,
+#project-cards,
+#contact-info {
+  border-left: solid;
+  border-color: var(--lava);
+  padding: 45px 0px 0px 45px;
 }
 
-
 .header {
-    background-color: var(--dark);
-    color: var(--light);
-    padding: 1.5rem;
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 1.5rem;
 }
 
 .body {
-    background-color: var(--smoke);
-    padding-bottom: 50px;
-    min-height: calc(100vh - 80px);
+  background-color: var(--smoke);
+  padding-bottom: 50px;
+  min-height: calc(100vh - 80px);
 }
 
 .navigation {
-    background-color: var(--dark);
+  background-color: var(--dark);
 }
 
 button {
-    background-color: var(--smoke);
+  background-color: var(--dark);
+  color: var(--light)
 }
 
-p, li {
+p,
+li {
+  color: var(--light);
+}
+
+h2,
+h5 {
+  color: var(--lava);
+}
+
+h3, h4 {
     color: var(--light);
-}
-
-h2, h5 {
-    color: var(--lava);
 }
 
 a {
-    color: var(--light);
-    /* takes away underline for links */
-    text-decoration: none;
-    font-size: 1rem;
+  color: var(--light);
+  /* takes away underline for links */
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 /* when hovering over links text turns from light to lava */
-a:hover, a.nav-link:hover {
-    color: var(--lava);
+a:hover,
+a.nav-link:hover {
+  color: var(--lava);
 }
 
 /* changed bootstrap default font color to light */
-a.nav-link, .card-text {
-    color: var(--light);
+a.nav-link,
+.card-text {
+  color: var(--light);
 }
 a.nav-item {
-    color: var(--light)
+  color: var(--light);
 }
 
 a.nav-link:active {
-    color: var(--lava)
+  color: var(--lava);
 }
 
 .card-body {
-    background-color: var(--dark);
+  background-color: var(--dark);
+}
+
+.form {
+    width: 50%;
+}
+
+.text {
+    height: 150px;
 }
 
 .card {
-    border-color: var(--smoke);
+  border-color: var(--smoke);
 }
 
 .contact-section {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* create spacing between sections*/
-.work-section, .about-section {
-    margin-top: 50px;
+.work-section,
+.about-section {
+  margin-top: 50px;
 }
 
-
 .footer {
-    background-color: var(--dark);
-    text-align: center;
-    margin-bottom: 0%;
-    margin-top: 0%;
-    padding: 1.5rem;
-    height: 80px;
+  background-color: var(--dark);
+  text-align: center;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  padding: 1.5rem;
+  height: 80px;
 }
 
 .logo {
-    text-align: center;
-    font-size: 6rem;
-    color: var(--light);
+  text-align: center;
+  font-size: 6rem;
+  color: var(--light);
 }
 
-h1, h2 {
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
 }
 
 /* sized and aligned headshot */
 .headshot {
-    width: 62%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
+  width: 62%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
 }
 
 h1 {
-    font-size: 6rem;
+  font-size: 6rem;
 }
 
 /* sized and aligned tagline */
 .tag-line {
-    color: var(--lava);
-    font-size: 2.0rem;
-    padding: 45px 0;
-    text-align: left;
+  color: var(--lava);
+  font-size: 2rem;
+  padding: 45px 0;
+  text-align: left;
 }
 
 .contact-li {
-    line-height: 3rem;
-    font-size: 1.25rem;
+  line-height: 3rem;
+  font-size: 1.25rem;
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
 }
 
 .social {
-    display: inline-block;
-    text-indent: -9999px;
-    margin-left: 20px;
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-  }
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+}
 
 .linkedin {
-    background-image: url(../images/linkedin-svgrepo-com.svg);
-  }
+  background-image: url(../images/linkedin-svgrepo-com.svg);
+}
 
 .github {
-    background-image: url(../images/github-svgrepo-com.svg);
-  }
+  background-image: url(../images/github-svgrepo-com.svg);
+}
