@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2e370f77.css",
-    "main.js": "/react-portfolio/static/js/main.5b6a6faf.js",
+    "main.css": "/react-portfolio/static/css/main.597da263.css",
+    "main.js": "/react-portfolio/static/js/main.a8bdb4a8.js",
+    "static/media/Headshotbnw.jpg": "/react-portfolio/static/media/Headshotbnw.ecf501e2f23b6b8863a4.jpg",
+    "static/media/github-svgrepo-com.svg": "/react-portfolio/static/media/github-svgrepo-com.7894bcfab1ab247b6ad7.svg",
+    "static/media/linkedin-svgrepo-com.svg": "/react-portfolio/static/media/linkedin-svgrepo-com.5060e5e65d1b5cad6a35.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.2e370f77.css.map": "/react-portfolio/static/css/main.2e370f77.css.map",
-    "main.5b6a6faf.js.map": "/react-portfolio/static/js/main.5b6a6faf.js.map"
+    "main.597da263.css.map": "/react-portfolio/static/css/main.597da263.css.map",
+    "main.a8bdb4a8.js.map": "/react-portfolio/static/js/main.a8bdb4a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e370f77.css",
-    "static/js/main.5b6a6faf.js"
+    "static/css/main.597da263.css",
+    "static/js/main.a8bdb4a8.js"
   ]
 }
