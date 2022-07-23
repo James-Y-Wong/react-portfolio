@@ -15,7 +15,7 @@ export default function Contact() {
               <i className="fa-solid fa-phone contact-li"></i> (404) 213-3994
             </li>
             <li>
-              <i className="fa-solid fa-envelope contact-li" href="mailto:jamesyeuwong@gmail.com"></i>
+              <i className="fa-solid fa-envelope contact-li"></i>
               jamesyeuwong@gmail.com
             </li>
           </ul>
