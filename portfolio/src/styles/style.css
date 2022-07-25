@@ -95,6 +95,7 @@ a.nav-link:active {
 
 .card {
   border-color: var(--smoke);
+  margin: 20px;
 }
 
 .contact-section {
