@@ -26,12 +26,6 @@ export default function About() {
               bootcamp, I will gain knowledge in full stack skills.
             </p>
             <p>
-              When I am not developing applications, I enjoy hiking, watching
-              Atlanta sports, playing tennis, running, eating, and anything
-              Netflix. I am 36 years old from Atlanta, Georgia. I am married
-              with no kids (yet), just 4 fur babies.
-            </p>
-            <p>
               I am excited to apply what I have learned to build projects that
               have impact to users across the world. With the knowledge and
               skills I have gained from coding bootcamp, I hope to have an
