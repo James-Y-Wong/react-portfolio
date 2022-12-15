@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.2bedd7a8.css",
-    "main.js": "/react-portfolio/static/js/main.fad1987b.js",
+    "main.js": "/react-portfolio/static/js/main.8cdfa74b.js",
     "static/media/soundriver_search_result_screenshot.png": "/react-portfolio/static/media/soundriver_search_result_screenshot.4fc3d185e2765e7e290b.png",
     "static/media/gadgetgetter-dashboard-screenshot.png": "/react-portfolio/static/media/gadgetgetter-dashboard-screenshot.6de6a048236c79df0499.png",
     "static/media/weather-dashboard-screenshot.png": "/react-portfolio/static/media/weather-dashboard-screenshot.79a138f8b35d3ad32960.png",
@@ -14,10 +14,10 @@
     "static/media/linkedin-svgrepo-com.svg": "/react-portfolio/static/media/linkedin-svgrepo-com.5060e5e65d1b5cad6a35.svg",
     "index.html": "/react-portfolio/index.html",
     "main.2bedd7a8.css.map": "/react-portfolio/static/css/main.2bedd7a8.css.map",
-    "main.fad1987b.js.map": "/react-portfolio/static/js/main.fad1987b.js.map"
+    "main.8cdfa74b.js.map": "/react-portfolio/static/js/main.8cdfa74b.js.map"
   },
   "entrypoints": [
     "static/css/main.2bedd7a8.css",
-    "static/js/main.fad1987b.js"
+    "static/js/main.8cdfa74b.js"
   ]
 }
