@@ -30,7 +30,7 @@ export default function About() {
               have impact to users across the world. With the knowledge and
               skills I have gained from coding bootcamp, I hope to have an
               opportunity to be a valuable member of your team! Reach out to me
-              to git hat!
+              to git chat!
             </p>
           </div>
         </div>
