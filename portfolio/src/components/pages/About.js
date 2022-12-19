@@ -15,15 +15,7 @@ export default function About() {
           </div>
           <div className="col" id="bio">
             <p>
-              Hi there! My name is James Wong. I am a Full Stack Web Developer
-              with a background in Supply Chain. I am currently enrolled in Full
-              Stack Web Development Coding Bootcamp at Georgia Tech progressing
-              towards a certificate in Full Stack Web Development. Newly
-              acquired front-end skills include: HTML, CSS, JavaScript,
-              frameworks and libraries, and responsive web design. Newly
-              acquired back-end skills include: NPM, Node.js, Express.js, MySQL,
-              Sequelize, and handlebars. As I continue my journey in coding
-              bootcamp, I will gain knowledge in full stack skills.
+            Hi there! My name is James Wong. I am a Full Stack Web Developer with a background in Supply Chain. I was trained at Georgia Tech Coding Bootcamp and recieved a certificate in Full Stack Web Development. Front-end skills include: HTML, CSS, JavaScript, React.js, frameworks and libraries, and responsive web design. Back-end skills include: NPM, Node.js, Express.js, MySQL, MongoDB, Sequelize, and handlebars. The MERN stack is what I prefer but I am flexible to learning anything and everything.
             </p>
             <p>
               I am excited to apply what I have learned to build projects that
